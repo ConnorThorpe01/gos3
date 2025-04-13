@@ -1,0 +1,40 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+/build/
+bin/
+dist/
+
+# Go stuff
+*.mod~
+*.sum~
+vendor/
+coverage.out
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+
+# Secrets / Config
+*.env
+*.env.*
+config.yml
+*.config.yml
+*.local
